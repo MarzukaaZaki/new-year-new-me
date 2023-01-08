@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+
+    background-image: url('../images/banner/banner1.png');
+
+}
+
+.btn-primary{
+    color: #FFFF;       
+    background: #F15B22;
+    height: 60px;
+    border-radius: 5px ;
+    border: 0;              /* no border */
+    padding: 18px 35px;     /*spacing around text inside button*/
+    font-weight: 800;
+    font-size: 20px;
+}
+/* Show the heading2 and list items in the same line */
+nav{
+    display: flex;
+
+    /* Send the two items within navbar to two ends*/
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+/* Show all the list items in the same line*/
+nav ul{
+    display: flex;
+    align-items: center;    /**/
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 50px;
+}
+.text-primary{
+    color:#F15B22;
+}
+
+
+/* Banner Styles */
+.banner{
+    margin: 0 200px;
+}
+.banner-title{
+  
+    font-weight: 800;
+    font-size: 65px;
+    text-align: right;
+    color: #151414;
+    margin-top: 220px;
+    margin-left: 700px;
+}
+.banner-subtitle{
+    margin-top: 24px;
+    margin-left: 800px;
+    margin-bottom: 24px;
+}
+.btn-secondary{
+    margin-left: 800px;
+    margin-bottom: 24px;
+    color: #FFFF;       
+    background: #F15B22;
+    height: 60px;
+    border-radius: 5px ;
+    border: 0;              /* no border */
+    padding: 18px 35px;     /*spacing around text inside button*/
+    font-weight: 800;
+    font-size: 20px;
+}
