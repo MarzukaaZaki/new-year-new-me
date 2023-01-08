@@ -185,3 +185,18 @@ nav li{
     margin-top: 16px;
 
 }
+
+/* Gradient-image section */
+.gradient-image{
+    margin: 150px 250px;
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
+
+    background-position: right bottom, left;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 26px;
+    
+
+}
