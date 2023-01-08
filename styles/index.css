@@ -106,13 +106,13 @@ nav li{
 
 /*Plan section*/
 .plans{
- margin: 130px 230px;  
+ margin: 130px 300px;  
 
 }
 
 .plan-title{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 400px;
     margin-bottom: 50px;
 
@@ -122,19 +122,66 @@ nav li{
     display: flex;
     font-weight: 700;
     font-size: 30px;
-    gap: 150px;
+    gap: 90px;
     
 }
 .skill{
-    
+    padding: 1px;
 }
 .skill-title{
     font-weight: 700;
     font-size: 20px;
+    margin-bottom: 16px;
+    text-align: center;
 }
 
 .skill-description{
     font-weight: 500;
     font-size: 17px;
+
+}
+
+.contact{
+    display: flex;
+    gap: 335px;
+    background: #151414;
+    color: #FFFF;
+    padding: 130px 230px;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+    
+}
+.contact-details{
+    margin-bottom: 24px;
+
+}
+.contact-email{
+    margin-bottom: 16px;
+}
+.contact-phone{
+    margin-bottom: 32px;
+}
+.contact input{
+    border: 1px solid #FFFF;
+    border-radius: 5px;
+    padding: 20px;
+    background: #151414;
+    color: #FFFF;
+}
+
+/* Subscription bar styles */
+.btn-secondary{
+    color: #F15B22;       
+    background: #FFFFFF;
+    height: 60px;
+    border-radius: 7px ;
+    border: 0;              /* no border */
+    padding: 25px 36px;     /*spacing around text inside button*/
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 16px;
 
 }
