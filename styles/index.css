@@ -226,6 +226,7 @@ nav li{
 }
 .project-info{
     display: flex;
+    margin-top: 16px;
 }
 .project-details{
     margin: 0 10px;
@@ -237,6 +238,6 @@ nav li{
 }
 .project .btn-primary{
     height: 15%;
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 30px;
 }
