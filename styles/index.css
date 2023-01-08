@@ -103,3 +103,38 @@ nav li{
     margin: 8px;
     list-style:lower-roman;
 }
+
+/*Plan section*/
+.plans{
+ margin: 130px 230px;  
+
+}
+
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+
+}
+
+.skills-container{
+    display: flex;
+    font-weight: 700;
+    font-size: 30px;
+    gap: 150px;
+    
+}
+.skill{
+    
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.skill-description{
+    font-weight: 500;
+    font-size: 17px;
+
+}
